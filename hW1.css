@@ -1,0 +1,135 @@
+body{
+    margin:0;
+
+}
+*{
+    box-sizing:border-box;
+}
+h1{
+    margin:0;
+}
+.btn_dark{
+    text-decoration:none;
+    color:white;
+    background-color:black;
+    padding:25px 20px;
+    border-radius:100px;
+    letter-spacing:2px;
+    font-size:14px;
+}
+.navbar ul{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+margin:0;
+padding:0;
+background-color:black;
+}
+.navbar ul li{
+    display:inline-block;
+}
+.navbar ul li a{
+    display:block;
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    padding:25px 20px;
+    font-size:13px;
+    color:#f4511e;
+    letter-spacing:2px;
+}
+.hero_section{
+    display:flex;
+ justify-content:center;
+ align-items:center;
+    width:100%;
+    background-image:url("hero.jpg");
+    height:85vh;
+}
+.hero_text{
+    color:white;
+    text-align:center;
+    
+}
+.hero_text h1{
+    font-size:100px;
+    font-weight:500;
+    text-transform:uppercase;
+}
+.hero_text p{
+    letter-spacing:6px;
+    text-transform:uppercase;
+}
+.recipe_section{
+    padding:70px 0px;
+}
+.image_wrapper{
+    height:100%;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    border-radius:2px;
+   
+}
+.image_wrapper img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    transition:all 0.4s;
+}
+.img_wrapper-text{
+    width:100%;
+    position:absolute;
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    bottom:0;
+    padding:0px 15px;
+    text-align:center;
+}
+.image_wrapper:hover img{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+.sub_section{
+    background-color:black;
+    color:white;
+    padding:70px 0px;
+}
+form{
+    
+}
+button{
+    background-color:orange;
+    border:none;
+}
+
+
+.finish{
+    padding:70px 0px;
+}
+.finishimg{
+    width:100%;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+.finishimg img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    transition:all 0.4s;
+    
+}
+.finishimg-text{
+    color:white;
+    background-color:orange;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    padding:10px 10px;
+    text-align:center;
+
+}
+.finishimg:hover img{
+    transform:scale(1.2,1.2);
+}
